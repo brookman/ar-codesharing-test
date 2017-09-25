@@ -1,2 +1,3 @@
-rmdir android\AndroidProject\Assets\Shared
-mklink /D android\AndroidProject\Assets\Shared shared\Shared\Assets
+cd android\AndroidProject\Assets
+rmdir Shared
+mklink /D Shared ..\..\..\shared\Shared\Assets
