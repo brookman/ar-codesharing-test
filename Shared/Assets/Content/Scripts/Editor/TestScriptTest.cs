@@ -10,6 +10,6 @@ public class TestScriptTest {
     public void DummyTestMethod_RunUnitTests_ShouldPass()
     {
   
-        Assert.True(false);
+        Assert.True(true);
     }
 }
